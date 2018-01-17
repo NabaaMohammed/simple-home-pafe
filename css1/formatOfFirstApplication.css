@@ -1,0 +1,237 @@
+ .main_header{
+    background-color: #000202 ;
+     color:#f0f1c9;
+    position: fixed;
+    left:0px;
+    top:0px;
+     width: 100%;
+     min-height: 50px;
+     max-height: 100px;
+     z-index: 3;
+     overflow: hidden;
+    /*padding-bottom: 50px;
+    margin-bottom: -51px;*/
+     
+}
+.main_header .logo{
+    background-color: #f0f1c9;
+    color:#000202;
+    display: block;
+    float:left;
+    width: 234px;
+    height: 54px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 2em;
+     position: fixed;
+     z-index: 3;
+}
+#btn-sidebar{
+    margin: 5px 10px;
+    position: fixed;
+    z-index: 3;
+    left: 230px;
+}
+.main_header .logo a{color:red;}
+.main_header .logo .logo-mini{
+    display: none;
+    font-size: 18px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+main_header .logo .logo-lg{
+    display: block;
+    font-size: 26px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.main_header ul.naving{
+    float:right;
+    background-color: green;
+    color:azure;
+    display: block;
+    margin: 0;
+    height: 50px;
+}
+.main_header ul.naving li{
+    display: inline;
+    padding: 4px;
+    line-height: 45px;
+    
+    
+}
+.main_sidebar{
+    padding-top: 50px;
+    background-color: #000202;
+    position: absolute;
+    left:-1px;
+    top:0px;
+    width:237px;
+    height: 100%;
+    z-index: 2;
+}
+.main_sidebar .sidebar ul.naving li,.btn-secondary{
+    border-bottom: 1px solid #ccc;
+    background-color: #000202;
+    color:#f0f1c9;
+    list-style: none;
+    padding: 15px;
+    
+    
+    font-size: 22px;
+    font-weight: bold;
+}
+.main_sidebar .sidebar ul.naving li:hover,.btn-secondary:hover{
+    background-color: #f0f1c9;
+    color:#000202;
+}
+.content_wrapper{
+      background-color: #f0f1c9;
+    color: #000202;
+    min-height: 572px;
+        margin-top: 50px;
+    
+}
+.main_footer{
+    background-color: green;
+    padding: 10px;
+    margin-left: 230px;
+    background-color: #000202;
+    color:#f0f1c9;
+    margin-top: 5px;
+}
+.content_wrapper,.main_footer{
+    margin-left: 230px;
+    padding: 10px;
+    z-index: 1;
+}
+.has-mini-sidebar .main_header .logo{
+     width: 60px;
+}
+.has-mini-sidebar .main_header .logo .logo-lg{
+     display: none;
+}
+
+.has-mini-sidebar .main_sidebar .logo .logo-mini{
+   display: block;
+}
+
+.has-mini-sidebar .main_sidebar
+{
+    width: 60px;
+}
+/*start navbar*/
+.start .nav > li > a{
+    margin-left: 1110px;
+}
+ .start .dropdown-menu {
+    position: absolute;
+    /* top: 100%; */
+    left: 1000px;
+    top: -434px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 173px;
+    padding: 13px 29px;
+    margin: 2px 0 0;
+    font-size: 14px;
+    color: white;
+    text-align: left;
+    list-style: none;
+    background-color: #2b526d;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+      z-index: 6;
+}
+  .start .nav > li > a {
+    margin-left: 984px;
+    color: #f0f1c9;
+    font-size: 25px;
+    font-weight: bold;
+}   
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+   background-color: #f0f1c9;
+    color:#000202;
+}
+
+/*end navbar*/
+
+.btn-primary {
+    color: #f0f1c9;
+    background-color: #000202;
+    /* border-color: #f0f1c9; */
+    border: 6px solid #f0f1c9;
+    font-size: 16px;
+    font-weight: bold;
+}
+.start .btn-primary:hover,.start .btn-primary:focus,.start .btn-primary:active,.start .btn-primary.active,.start .open >.dropdown-toggle.btn-primary,.start.nav > li > a:hover,.start .nav > li > a:focus{
+     color: #000202 ;
+    background-color: #f0f1c9;
+    /* border-color: #f0f1c9; */
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+        padding: 12px 15px 10px 15px;
+    margin-left: 1000px;
+    
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+.start .fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin-left: 930px;
+    font-size: 45px;
+    /* padding-top: 6px; */
+    /* margin-top: 10px; */
+    position: fixed;
+    top: 26px;
+    color: #f0f1c9;
+    -moz-osx-font-smoothing: grayscale;
+}
+.start .fa:hover{font-size: 60px;}
+.start span{
+     position: fixed;
+    top: 25px;
+    margin-left: 973px;
+    border-radius: 8px;
+    padding: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

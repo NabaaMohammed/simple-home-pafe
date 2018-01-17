@@ -1,0 +1,39 @@
+/*start media*/
+ 
+@media screen and (max-width:767px){
+    .main_sidebar{
+         display: none;
+   
+    }
+    .content_wrapper,.main_footer{
+    margin-left: 0;
+    }
+    .content_wrapper{
+        padding: 50px;
+    }
+    .main_header .logo .logo-mini{
+    display:block;
+}
+main_header .logo .logo-lg{
+    display: none;
+}
+    .main_header ul.naving{
+   
+    height: 80px;
+}
+    .main_header ul.naving li{
+    
+    line-height:100px;
+    
+    
+}
+    .main_header .logo {
+     line-height: 14px;
+    font-size:1em;
+    text-decoration: none;
+        width: 133px;
+        text-align: left;
+}
+    a{color: azure;}   
+}
+/*end media*/
